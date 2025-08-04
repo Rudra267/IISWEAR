@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Certificate in Corporate Performance Management</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <style>
+
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .section {
+      padding: 3rem 0;
+    }
+    .bg-dark-overlay {
+      position: relative;
+      background-size: cover;
+      background-position: center;
+      color: white;
+      height: auto;
+    }
+    .bg-dark-overlay::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 1;
+    }
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      padding: 2rem 0;
+    }
+    .hero-text, .form-box {
+      flex: 1;
+      padding: 1rem;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+    .form-box {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .form-box h2 {
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+    .form-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+    .form-box form input,
+    .form-box form select,
+    .form-box form button {
+      width: 100%;
+      padding: 0.75rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1rem;
+    }
+    .form-box form button {
+      background-color: #28a745;
+      color: #fff;
+      font-weight: bold;
+      cursor: pointer;
+      border: none;
+      transition: background 0.3s;
+    }
+    .form-box form button:hover {
+      background-color: #218838;
+    }
+    .form-box small {
+      display: block;
+      font-size: 0.8rem;
+      color: #555;
+      margin-bottom: 1rem;
+    }
+    .form-row {
+      display: contents;
+    }
+    .grid-3, .grid-4 {
+      display: grid;
+      gap: 1.5rem;
+    }
+    .grid-3 {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    .grid-4 {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+    .card {
+      background: #fff;
+      border-radius: 8px;
+      padding: 1rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    .accordion {
+      border-top: 1px solid #ccc;
+    }
+    .accordion-item {
+      border-bottom: 1px solid #ccc;
+    }
+    .accordion-button {
+      background: #f1f1f1;
+      width: 100%;
+      padding: 1rem;
+      border: none;
+      cursor: pointer;
+      font-weight: 600;
+      text-align: left;
+    }
+    .accordion-content {
+      display: none;
+      padding: 1rem;
+      background: #fff;
+    }
+    .accordion-item.active .accordion-content {
+      display: block;
+    }
+    @media (min-width: 768px) {
+      .hero-content {
+        flex-direction: row;
+      }
+    }
+    @media (max-width: 768px) {
+      .form-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Hero Section -->
+<section class="bg-dark-overlay" style="background-image: url('https://images.unsplash.com/photo-1551836022-d5d88e9218df');">
+  <div class="container hero-content">
+    <div class="hero-text">
+      <h1>Certificate in Corporate Performance Management</h1>
+      <p>
+        Gain the Edge in Financial Analytics and Become a Data-Savvy Finance Leader. Empower
+        your decision-making with advanced data modeling, forecasting, and visualization tools
+        tailored for the modern CFO’s office.
+      </p>
+      <ul>
+        <li><strong>Starts On:</strong> Rolling Intake</li>
+        <li><strong>Duration:</strong> 12 Weeks (Online)</li>
+        <li><strong>Programme Fee:</strong> Custom pricing available</li>
+        <li><strong>Eligibility:</strong> Any Graduate/Diploma Holder</li>
+        <li><strong>Format:</strong> Online (100+ hours self-paced + live sessions)</li>
+        <li><strong>Internships:</strong> Included with international project exposure</li>
+      </ul>
+    </div>
+    <div class="form-box">
+      <h2>Get Your Brochure</h2>
+      <form id="brochureForm">
+        <div class="form-grid">
+          <input type="text" name="firstName" placeholder="First Name" required />
+          <input type="text" name="lastName" placeholder="Last Name" required />
+          <input type="email" name="email" placeholder="Email" required />
+          <input type="tel" name="phone" placeholder="Phone (digits only)" pattern="\\d+" required />
+          <input type="text" name="city" placeholder="City" required />
+          <input type="text" name="jobTitle" placeholder="Job Title" required />
+        </div>
+        <select name="experience" required>
+          <option value="">Work Experience</option>
+          <option value="0-1">0–1 Year</option>
+          <option value="1-5">1–5 Years</option>
+          <option value="5+">5+ Years</option>
+        </select>
+        <small>By clicking the button below, you agree to receive communications via Email/Call/WhatsApp/SMS about this programme and other relevant programmes. <a href="#">Privacy Policy</a></small>
+        <button type="submit">DOWNLOAD BROCHURE</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- Module Section -->
+<section class="section">
+  <div class="container">
+    <h2 style="text-align:center; margin-bottom: 2rem;">Programme Overview</h2>
+    <div class="grid-3">
+      <p> The Certificate in Corporate Performance Management is a
+comprehensive online programme tailored for finance professionals, analysts, and
+aspiring CFOs. The curriculum is designed to impart deep knowledge of relational
+databases, data warehousing, data modeling, ETL systems, and financial analytics—all
+necessary to thrive in a performance-driven financial leadership role. Through an
+immersive, case-based structure, you will build end-to-end data systems and leverage
+predictive analytics to drive financial decisions.
+</p>
+    </div>
+  </div>
+</section>
+
+<!-- Career Path Section -->
+<section class="section">
+  <div class="container">
+    <h2 style="text-align:center; margin-bottom: 2rem;">Career Pathways</h2>
+    <div class="grid-4">
+      <div class="card">
+        <h4>Corporate Financial Analyst</h4>
+        <p>Use analytical tools to guide investment and growth strategies.</p>
+      </div>
+      <div class="card">
+        <h4>Performance Management Consultant</h4>
+        <p>Optimize organizational outcomes through data and metrics.</p>
+      </div>
+      <div class="card">
+        <h4>FP&A Specialist</h4>
+        <p>Advise companies using financial analytics to improve performance.</p>
+      </div>
+      <div class="card">
+        <h4>Data-Driven CFO</h4>
+        <p>Assist C-suite executives in long-term decision-making using insights.</p>
+      </div>
+
+            <div class="card">
+        <h4>Financial Data Engineer</h4>
+        <p>Assist C-suite executives in long-term decision-making using insights.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ Section -->
+<section class="section">
+  <div class="container">
+    <h2 style="text-align:center; margin-bottom: 2rem;">Programme Modules</h2>
+    <div class="accordion" id="faq">
+      <div class="accordion-item">
+        <button class="accordion-button">Module 0: Relational Database Management Systems (RDBMS) Concepts</button>
+        <div class="accordion-content">
+            <ul>
+                <li>Advanced Introduction to DBMS and EDBMS</li>
+                <li>DBMS vs RDBMS vs NoSQL</li>
+                <li>Codd’s 12 Rules for RDBMS</li>
+                <li>Entity Relationships in RDBMS</li>
+                <li>Keys and Normalization (1NF to 4NF)</li>
+                <li>Views and Materialized Views</li>
+                <li>Advanced RDBMS for Cloud Analytics</li>
+                <li>Project: OLTP System Design</li>
+            </ul>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-button">Module 1: Data Warehousing Concepts for Financial Analytics</button>
+        <div class="accordion-content">
+            <ul>
+                <li>Introduction to DWBI</li>
+            <li>Basics of Statistics for Analytics</li>
+            <li>Business Intelligence Frameworks</li>
+            <li>Application of BI in Financial Domains</li>
+            <li>Project: Client BI Architecture Design</li>
+            </ul>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-button">Module 2: Data Modeling for CFO Office</button>
+        <div class="accordion-content">
+            <ul>
+                <li>Logical and Physical Data Modeling</li>
+                <li>Star & Snowflake Schema Development</li>
+                <li>Domain-Specific Data Warehouse Schema</li>
+                <li>Project: Data Warehouse Design for Analytics</li>
+            </ul>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <button class="accordion-button">Module 3: Data Cleansing and ETL for Financial Planning</button>
+        <div class="accordion-content">
+            <ul>
+                <li>Domain Data Ecosystem Overview</li>
+                <li>ETL (Extract, Transform, Load) Frameworks</li>
+                <li>Big Data for Financial AI</li>
+                <li>Introduction to Data Engineering</li>
+                <li>AWS and Azure Ecosystem Essentials</li>
+                <li>Project: ETL Implementation for Financial Quality</li>
+            </ul>
+        </div>
+      </div>
+
+        <div class="accordion-item">
+        <button class="accordion-button">Module 4: Planning, Budgeting & Forecasting</button>
+        <div class="accordion-content">
+            <ul>
+                <li>Integration of Concepts into Financial Planning</li>
+                <li>Introduction to CPM Implementation</li>
+                <li>Capstone Project: Consolidated Business Planning Model</li>
+            </ul>
+        </div>
+      </div>
+
+              <div class="accordion-item">
+        <button class="accordion-button">Module 5: Mining, Visualization, and CPM Roadmap</button>
+        <div class="accordion-content">
+            <ul>
+                <li>Financial Reporting Tools & Dashboards</li>
+                <li>Project: Data Mining for Performance Reporting</li>
+            </ul>
+        </div>
+      </div>
+
+      
+              <div class="accordion-item">
+        <button class="accordion-button">Module 6: Boot Start Your Career</button>
+        <div class="accordion-content">
+            <ul>
+                <li>Work on International Projects</li>
+                <li>Internship: Real-time experience before client office onboarding</li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="download-btn">DOWNLOAD BROCHURE</button>
+</section>
+
+<script>
+  const accordionItems = document.querySelectorAll('.accordion-item');
+  accordionItems.forEach(item => {
+    item.querySelector('.accordion-button').addEventListener('click', () => {
+      item.classList.toggle('active');
+    });
+  });
+</script>
+</body>
+</html>
