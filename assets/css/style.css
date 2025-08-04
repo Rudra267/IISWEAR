@@ -35100,8 +35100,9 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
 
        
     .container-program {
-      width: 100%;
-      max-width: 1400px;
+      gap: 30px;
+      width: 90%;
+      max-width: 1200px;
       margin: auto;
     }
     .section-program {
@@ -35143,6 +35144,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
       color: #fff;
     }
     .form-box-program {
+      width: 500px;
       background: #fff;
       padding: 2rem;
       border-radius: 8px;
