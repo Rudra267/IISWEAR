@@ -34831,6 +34831,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
     }
 
     .swiper-slide-cmt {
+      margin-top: -15vh;
       border-radius: 15px;
       max-height: 500px;
       background: linear-gradient(0deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 0) 50%, rgba(237, 221, 83, 0) 100%);
@@ -35201,3 +35202,117 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
         grid-template-columns: 1fr;
       }
     }
+
+
+    .site-footer {
+  background-color: #f9fafa;
+  padding: 60px 0 30px;
+  font-family: var(--font-size-b2);
+  color: #333;
+}
+
+.footer-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.footer-brand {
+  flex: 1 1 250px;
+  min-width: 200px;
+}
+
+.footer-brand img {
+  max-width: 150px;
+}
+
+.footer-description {
+  margin: 20px 0;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.footer-social {
+  display: flex;
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+}
+
+.footer-social li a i {
+  font-size: 18px;
+  color: #000;
+}
+
+.footer-column {
+  flex: 1 1 200px;
+  min-width: 180px;
+}
+
+.footer-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #000055;
+}
+
+.footer-links,
+.footer-contact {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li,
+.footer-contact li {
+  margin-bottom: 10px;
+}
+
+.footer-links li a {
+  text-decoration: none;
+  color: #6b6b6b;
+  font-size: 15px;
+}
+
+.footer-contact li a i,
+.footer-contact li i {
+  font-size: 18px;
+  color: #0077a3;
+}
+
+.footer-bottom {
+  border-top: 1px solid #ccc;
+  margin-top: 40px;
+  padding: 20px 0;
+}
+
+.footer-bottom-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 13px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.footer-bottom-content p {
+  margin: 0;
+}
+
+.footer-bottom-content a {
+  color: #000055;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .footer-grid {
+    flex-direction: column;
+  }
+
+  .footer-bottom-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
