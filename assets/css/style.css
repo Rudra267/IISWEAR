@@ -54,18 +54,9 @@
 
 @font-face {
   font-family: 'font1';
-  src: url('../fonts/ClashGrotesk-Bold.woff');
+  src: url('../../font/alro.ttf');
 }
 
-@font-face {
-  font-family: 'font2';
-  src: url('../fonts/ClashGrotesk-Extralight.woff');
-}
-
-@font-face {
-  font-family: 'font3';
-  src: url('../fonts/ClashGrotesk-Medium.woff2');
-}
 
 
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;display=swap");
@@ -21335,6 +21326,7 @@ nav ul li a {
 }
 
 .single-upcoming-events {
+  height:360px;
   border-radius: 6px;
   border: 1px solid #EFECFF;
   background: #FFF;
@@ -34898,7 +34890,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
     }
 
     .custom-font{
-    font-family: "font3";
+    font-family: "font1";
     /* text-transform: lowercase; */
     }
     /* faq */
