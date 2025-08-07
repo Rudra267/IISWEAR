@@ -34783,15 +34783,16 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
         }
 
         .academy-card {
-            max-height: 100px;
+            width: 180px;
+            height: 90px;
             position: relative;
             flex-shrink: 0;
             margin: 0 1rem;
             background: white;
             border-radius: 0.5rem;
             box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-            /* padding: 1.5rem;
-            min-width: 200px; */
+            padding: 1.5rem;
+            min-width: 200px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -34800,10 +34801,14 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
             transition: box-shadow 0.3s ease;
         }
 
+
+
         .infinite-img{
+          scale: 0.9;
           width: 100%;
           height: 100%;
           object-fit: contain;
+          object-position: center;
           border-radius: 0.5rem;
         }
 
@@ -35198,6 +35203,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
       color: #fff;
     }
     .form-box-program {
+      max-height: fit-content;
       width: 500px;
       background: #fff;
       padding: 2rem;
@@ -35223,7 +35229,12 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
       border-radius: 4px;
       font-size: 1.5rem;
     }
+    .div-cmt{
+      width: 100%;
+      text-align: center;
+    }
     .form-box-program form button {
+   
       background-color: #28a745;
       color: #fff;
       font-weight: 500;
@@ -35231,6 +35242,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
       border: none;
       padding: 10px 40px;
       transition: background 0.3s;
+      max-width:250px ;
     }
     .form-box-program form button:hover {
       background-color: #218838;
