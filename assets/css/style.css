@@ -31284,8 +31284,13 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
   line-height: 80px;
   text-align: center;
   display: block;
-  background: var(--body-bg-1);
+  /* background: var(--body-bg-1); */
   border-radius: 6px;
+}
+
+.contact-map-area-start .single-maptop-info .icon > i{
+  font-size: 25px;
+  color: #0d6efd;
 }
 .contact-map-area-start .single-maptop-info p {
   font-size: 22px;
@@ -34889,7 +34894,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
 
     .custom-font{
     font-family: "font3";
-    text-transform: lowercase;
+    /* text-transform: lowercase; */
     }
     /* faq */
 
