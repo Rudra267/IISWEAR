@@ -35568,3 +35568,16 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
     background-color: #F4F6F5;
     z-index: 999;
   }
+
+  @media (max-width:800px) {
+    .display-not{
+      display: none;
+    }
+
+    .text-cmt-head{
+      font-size: 20px !important;
+    }
+    .banner-area-one{
+      padding-top: 0px !important;
+    }
+  }
