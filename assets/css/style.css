@@ -35353,3 +35353,89 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
     .download-btn {
       margin-top: 50px;
     }
+
+
+
+
+
+
+.program-dropdown{
+  display: flex;
+  gap: 20px;
+}
+
+
+    
+    .program-wrapper {
+  display: flex;
+  gap: 30px;
+}
+
+.program-block {
+  position: relative;
+}
+
+.program-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 20px;
+  /* border: 1px solid #ddd; */
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.program-btn:hover {
+  background-color: #f0f4ff;
+}
+
+.program-btn img {
+  width: 30px;
+  height: 30px;
+}
+
+.program-btn span {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  padding: 12px 0;
+  border-radius: 8px;
+  display: none;
+  min-width: 300px;
+  z-index: 999;
+}
+
+.submenu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+
+
+}
+
+.submenu li a {  
+  width: 100% !important;
+  /* background-color: red !important; */
+  text-align: left;
+  padding: 10px 20px;
+  color: #333;
+  text-decoration: none;
+}
+
+.submenu li a:hover {
+  background-color: #f7f7f7;
+}
+
+/* Show submenu on hover */
+.program-block:hover .submenu {
+  display: block;
+}
