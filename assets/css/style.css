@@ -35560,3 +35560,11 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
       height: auto;
     }
   }
+
+  .white-cmt-bg{
+    position: absolute;
+    width: 70px;
+    height: 100%;
+    background-color: #F4F6F5;
+    z-index: 999;
+  }
