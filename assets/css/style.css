@@ -14355,8 +14355,9 @@ xclip
   }
 }
 .header-one-wrapper .left-side-header .logo-area {
-  padding: 20px 0;
+  padding: 18px 0;
   display: block;
+  scale: 1.2;
 }
 .header-one-wrapper .left-side-header .category-area {
   cursor: pointer;
@@ -31186,6 +31187,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
   border-color: var(--color-primary-gym);
 }
 
+
 .contact-left-area-start .title {
   color: #110C2D;
   font-size: 40px;
@@ -34783,7 +34785,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
             background: white;
             border-radius: 0.5rem;
             box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-            padding: 1.5rem;
+            /* padding: 1.5rem; */
             min-width: 200px;
             display: flex;
             flex-direction: column;
@@ -35572,4 +35574,17 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
     .banner-area-one{
       padding-top: 0px !important;
     }
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Pacifico&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+  .font-head{
+    font-family: "Source Sans 3", sans-serif;
+  }
+  .font-head-sub{
+    font-family: "Source Sans 3", sans-serif;
+  }
+
+  .custom-box{
+    min-width: 400px !important;
   }
