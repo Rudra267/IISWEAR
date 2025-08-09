@@ -35604,3 +35604,13 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
     font-weight: 500;
     color: white;
   }
+
+  .custom-nav-dot{
+    display: none;
+  }
+
+  @media (max-width:987px){
+    .custom-nav-dot{
+      display: block;
+    }
+  }
