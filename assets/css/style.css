@@ -52,6 +52,10 @@
 ========================================*/
 /* Default  */
 
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Pacifico&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+
 @font-face {
   font-family: 'font1';
   src: url('../../font/alro.ttf');
@@ -106,8 +110,8 @@
   --s-extra-bold: 800;
   --s-black: 900;
   --transition: 0.3s;
-  --font-primary: "ClashGrotesk";
-  --font-secondary: "ClashGrotesk";
+  --font-primary: "Source Sans 3";
+  --font-secondary: "Source Sans 3";
   --font-3: "fontawesome";
   --font-size-b1: 18px;
   --font-size-b2: 16px;
@@ -35576,7 +35580,6 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
     }
   }
 
-  @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Pacifico&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
   .font-head{
     font-family: "Source Sans 3", sans-serif;
@@ -35587,4 +35590,17 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
 
   .custom-box{
     min-width: 400px !important;
+  }
+
+  .custom-wpLink{
+    max-height: 70px;
+    padding: 0px 5px;
+    background:#128c7e;
+    border: 2px solid #000;
+    border-radius: 50px;
+  }
+
+  .custom-wpLink > a{
+    font-weight: 500;
+    color: white;
   }
