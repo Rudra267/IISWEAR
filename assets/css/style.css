@@ -15047,7 +15047,7 @@ nav ul li a {
   position: relative;
 }
 .main-nav-one ul li > a {
-  padding: 19px 15px;
+  padding: 14px 15px;
 }
 .main-nav-one ul li a.nav-link {
   color: #1F1F25;
@@ -35596,13 +35596,16 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
     max-height: 70px;
     padding: 0px 5px;
     background:#128c7e;
-    border: 2.5px solid #000;
+    border: 1.5px solid #000;
     border-radius: 50px;
   }
 
   .custom-wpLink > a{
     font-weight: 500;
     color: white;
+  }
+  .custom-wpLink > a:hover{
+    color: #fff !important;
   }
 
   .custom-nav-dot{
