@@ -35639,7 +35639,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
       align-items: center;
     }
 
-    .swiper-slide img {
+    .swiper-slide .cmt-img {
       display: block;
       width: 100%;
       height: 100%;
