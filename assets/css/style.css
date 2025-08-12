@@ -35563,7 +35563,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
     position: absolute;
     width: 70px;
     height: 100%;
-    background-color: #F4F6F5;
+    /* background-color: #F4F6F5; */
     z-index: 999;
   }
 
@@ -35613,3 +35613,51 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
       display: block;
     }
   }
+
+  .title-cmt{
+    font-weight: 700;
+    color: #0077B5;
+  }
+  .thumbnail-cmt{
+    width: 500px;
+    background-color: red;
+  }
+  .thumbnail-cmt > img{
+    width: 100%;
+    height: 100%;
+  }
+
+
+
+
+     .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      /* background: #444; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .bpx{
+      display: flex;
+      gap: 30px;
+    }
+
+    .custom-box-img{
+      position: relative;
+    }
+
+
+
+
+
+
+  

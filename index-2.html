@@ -310,34 +310,14 @@
                 <div class="col-lg-6 order--xl-2 order-lg-2 order-sm-1 order-1 display-not" style="width: 630px !important; position: relative;">
                     <div class="white-cmt-bg"></div>
                    <div class="swiper swiper-cmt mySwiper">
+    <div class="swiper-wrapper swiper-wrapper-cmt">
+      <div class="swiper-slide swiper-slide-cmt"><img src="./swiper-1.jpeg" alt=""> <div class="buttom-cmt-bg"><p>Take the current when it serves</p></div></div>
+      <div class="swiper-slide swiper-slide-cmt"><img src="./swiper-2.jpeg" alt=""> <div class="buttom-cmt-bg"><p>Change is mandatory for extraordinary results</p></div></div>
+       <div class="swiper-slide swiper-slide-cmt"><img src="./swiper-3.jpeg" alt=""> <div class="buttom-cmt-bg"><p>Evolve in 6 months</p></div></div>
+      <div class="swiper-slide swiper-slide-cmt"><img src="./swiper-4.jpeg" alt="" style=" transform: scaleX(-1);"><div class="buttom-cmt-bg"><p>Never give up</p></div></div>
+  
 
-    <div class="swiper-wrapper">
-      <div class="swiper-slide bpx" >
-        <div class="custom-box-img">
-          <img src="./swiper-1.jpeg" alt=""> <div class="buttom-cmt-bg"><p>Take the current when it serves</p></div>
-        </div>
-
-        <div class="custom-box-img">
-          <img src="./swiper-2.jpeg" alt=""> <div class="buttom-cmt-bg"><p>Change is mandatory for extraordinary results</p></div>
-        </div>
-      </div>
-
-            <div class="swiper-slide bpx">
-        <div class="custom-box-img">
-          <img src="./swiper-3.jpeg" alt=""> <div class="buttom-cmt-bg"><p>Evolve in 6 months</p></div>
-        </div>
-
-        <div class="custom-box-img">
-          <img src="./swiper-4.jpeg" alt="" ><div class="buttom-cmt-bg"><p>Never give up</p></div>
-        </div>
-      </div>
-
-      
     </div>
-    <!-- <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-pagination"></div> -->
-
     <!-- <div class="swiper-pagination"></div> -->
   </div>
                 </div>
@@ -1831,21 +1811,19 @@ In this module, you will identify and apply the right BI techniques and tools to
 
      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+  <!-- Initialize Swiper -->
   <script>
     var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
       spaceBetween: 30,
-      centeredSlides: true,
+      loop: true,  // Enables looping
       autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
+        delay: 2000, // 2 seconds between slides
+        disableOnInteraction: false, // Keep autoplay active after user interactions
       },
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
       },
     });
   </script>
