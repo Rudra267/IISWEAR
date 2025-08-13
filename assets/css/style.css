@@ -27102,6 +27102,8 @@ edit .quantity-edit button {
   display: inline-block;
 }
 
+
+
 .cat-bg-one {
   background: #F4F6F5;
 }
@@ -27128,6 +27130,10 @@ edit .quantity-edit button {
 
 .body-bg-one {
   background: var(--body-bg-1);
+}
+
+.body-bg-two {
+  background-color: #b3e5fc;
 }
 
 body.with-sidebar {
@@ -34742,7 +34748,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
             width: 100%;
             overflow: hidden;
             padding: 4rem 0;
-            background: #F4F6F5;
+            /* background: #F4F6F5; */
         }
 
         .header {
@@ -34882,7 +34888,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
       align-items: end;
       justify-content: center;
       padding-bottom: 20px;
-  
+      border-radius: 20px;
     }
 
     .buttom-cmt-bg > p{
@@ -35644,6 +35650,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
       width: 100%;
       height: 100%;
       object-fit: cover;
+      border-radius: 20px;
     }
 
     .bpx{
@@ -35653,6 +35660,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
 
     .custom-box-img{
       position: relative;
+      border-radius: 20px;
     }
 
 
