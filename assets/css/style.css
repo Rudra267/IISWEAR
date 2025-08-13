@@ -18106,6 +18106,13 @@ nav ul li a {
   position: relative;
   z-index: 1;
 }
+.left-side-image > img::after{
+  content: " ";
+  position: absolute;
+  right: 0;
+  background-color: red;
+
+}
 .left-side-image .review-single {
   position: absolute;
   border-radius: 6px;
@@ -35274,7 +35281,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
 
 
     .site-footer {
-  background-color: #f9fafa;
+  background:linear-gradient(180deg,rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 49%, rgba(72, 139, 163, 1) 100%);
   padding: 60px 0 30px;
   font-family: var(--font-size-b2);
   color: #333;
@@ -35367,10 +35374,11 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
 
 .footer-bottom-content p {
   margin: 0;
+  color: #fff;
 }
 
 .footer-bottom-content a {
-  color: #000055;
+  color: #ffff;
   text-decoration: none;
 }
 
