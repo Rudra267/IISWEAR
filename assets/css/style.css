@@ -35707,3 +35707,22 @@ background: radial-gradient(circle,rgba(255, 255, 255, 0) 62%, rgba(3, 78, 135, 
 .padding-cmt{
   padding: 80px 0
 }
+
+.footer-logo-text{
+  color: #000;
+  text-align: start;
+  font-weight: 600;
+}
+
+.two-cmt{
+    max-width: 800px; /* Prevents it from being too wide */
+    height: 800px; /* Fixed height */
+
+}
+
+@media (max-width:500px){
+  .two-cmt{
+    height: 700px; /* Fixed height */
+
+  }
+}
