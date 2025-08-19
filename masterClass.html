@@ -101,6 +101,8 @@
                      <li class="">
                         <a href="./contact.html" class="main">Contact Us</a>
                     </li>
+
+
                 </ul>
             </nav>
 
@@ -131,12 +133,14 @@
                             <i class="fa-brands fa-linkedin-in"></i>
                         </a>
                     </li>
+
+     <li><a href="https://wa.me/918855816190?text=Hello%2C%20I%20am%20interested%20in%20your%20services."> <i class="fa-brands fa-whatsapp" style="font-weight: 700;"></i></a></li>                                </ul>
+
                 </ul>
             </div>
         </div>
         <!-- mobile menu area end -->
     </div>
-    <!-- header style two End -->
 
     <!-- header style one -->
     <header class="header-one header--sticky">
@@ -255,8 +259,7 @@
 
                                     </li>
 
-                                       <li class="custom-wpLink" style="display: flex; justify-content: center; align-items: center;"><a href="https://wa.me/919545734140?text=Hello%2C%20I%20am%20interested%20in%20your%20services."> <img width="35px" style="margin-right: 10px;" src="./wp.png" alt=""></a></li>
-                                </ul>
+                                       <li class="custom-wpLink" style="display: flex; justify-content: center; align-items: center;"><a href="https://wa.me/918855816190?text=Hello%2C%20I%20am%20interested%20in%20your%20services."> <img width="35px" style="margin-right: 10px;" src="./wp.png" alt=""></a></li>                                </ul>
                             </nav>
                         </div>
                         <div class="header-right-area-one custom-nav-dot">
@@ -377,7 +380,7 @@ Serving as the ideal starting point, the  <strong style="color: #294DAE;">Master
                 <div class="col-xl-12" style="display: flex; justify-content: center; align-items: center;">
                     <!-- contact left area start -->
 <div class="contact-left-area-start" style="width: 800px;">
-    <form action="#0" method="post" class="contact-page-form" id="contact-form">
+    <form action="#0" method="post" class="contact-page-form" id="contactForm">
         <div class="single-input">
             <label for="name">Your Name*</label>
             <input id="name" name="name" type="text" placeholder="Your name here">
@@ -403,7 +406,7 @@ Serving as the ideal starting point, the  <strong style="color: #294DAE;">Master
         </div>
 
         <div style="width: 100%; display: flex; justify-content: center; align-items: center;">
-            <button class="rts-btn btn-primary mt--30" style="width: 300px;">Send Message</button>
+            <button type="submit" class="rts-btn btn-primary mt--30" style="width: 300px;">Send Message</button>
         </div>
     </form>
 
@@ -458,7 +461,7 @@ Serving as the ideal starting point, the  <strong style="color: #294DAE;">Master
           <li><a href="/">Home</a></li>
           <li><a href="./about.html">About Us</a></li>
           <li><a href="./courses.html">Courses</a></li>
-          <li><a href="./Masterclass.html">Masterclass</a></li>
+          <li><a href="./masterClass.html">Masterclass</a></li>
           <li><a href="./blog.html">Blog</a></li>
           <li><a href="./contact.html">Contact Us</a></li>
 
@@ -490,6 +493,25 @@ Serving as the ideal starting point, the  <strong style="color: #294DAE;">Master
     </div>
   </div>
 </footer>
+
+          <script type="text/javascript"
+src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   document.getElementById("contactForm").addEventListener("submit", function(e) {
+    e.preventDefault(); // prevent actual form submission
+    sendEmail();
+});
+  (function(){
+   emailjs.init({
+     publicKey: "U-tuUa5wbkY9yArF0",
+   });
+  })();
+ </script>
+
+
+<script src="./assets/js/enquire.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <!-- all scripts -->
     <!-- jquery min js -->
