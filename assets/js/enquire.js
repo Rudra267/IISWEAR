@@ -23,7 +23,7 @@
             `;
 
             const param = {
-                title: "Master Class Form",
+                title: "Masterclass Form",
                 to_name: "iiSWEAR_Masterclass Form",
                 from_name: "iiSWEAR_Customer Service Team",
                 message: bodyMessage
@@ -42,7 +42,7 @@
                         timer: 1500
                     });
 
-                    document.getElementById("contact-form").reset();
+                    document.getElementById("contactForm").reset();
                 })
                 .catch((err) => console.log(err));
         }
