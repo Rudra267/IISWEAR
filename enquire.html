@@ -21,7 +21,7 @@
     <meta name="twitter:title" content="Learnhub LMS & University HTML Template">
     <meta name="twitter:description" content="Your Ultimate Solution for Online Learning">
     <meta name="twitter:image" content="landing/assets/images/banner/slider-img-01.html">
-    <title>iiSWEAR | Contact</title>
+    <title>iiSWEAR | Book a Masterclass</title>
  
     <link rel="preload stylesheet" href="assets/css/plugins/fontawesome-6.css" as="style">
     <!-- metismenu scss -->
@@ -287,7 +287,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb-main-wrapper">
-                        <h1 class="title" style="color: #fff;">Eligibility : Any Graduate/Post Graduate</h1>
+                        <h1 class="title" style="color: #000000;">Eligibility : Any Graduate/Post Graduate</h1>
                         <!-- <p>Eligibility : Any Graduate/Post Graduate</p> -->
                         <!-- breadcrumb pagination area -->
                         <div class="pagination-wrapper">
@@ -325,14 +325,14 @@
                                 <!-- <span>Class!</span> -->
                             </h2>
                         </div>
-                        <form action="#0" method="post" class="contact-page-form" id="contact-form">
+                        <form action="#0" method="post" class="contact-page-form" id="contactForm">
                             <div class="single-input">
                                 <label for="name">Your Name*</label>
                                 <input id="name" name="name" type="text" placeholder="Your name here">
                             </div>
                             <div class="single-input">
                                 <label for="email">Your Phone Number*</label>
-                                <input id="email" name="email" type="email" placeholder="e.g +91-4578193710">
+                                <input id="phone" name="phone" type="tel" placeholder="e.g +91-4578193710">
                             </div>
 
                                                         <div class="single-input">
@@ -340,7 +340,7 @@
                                 <input id="email" name="email" type="email" placeholder="info@gmail.com">
                             </div>
 
-                            <div style="width: 100%; display: flex; justify-content: center; align-items: center;"><button class="rts-btn btn-primary mt--30" style="width: 300px;">Send Message</button></div>
+                            <div style="width: 100%; display: flex; justify-content: center; align-items: center;"><button class="rts-btn btn-primary mt--30" type="submit" style="width: 300px;">Send Message</button></div>
                         </form>
                         <div id="form-messages" class="mt--20"></div>
                     </div>
@@ -451,7 +451,27 @@
       </div>
     </div>
   </div>
+
 </footer>
+
+          <script type="text/javascript"
+src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   document.getElementById("contactForm").addEventListener("submit", function(e) {
+    e.preventDefault(); // prevent actual form submission
+    sendEmail();
+});
+  (function(){
+   emailjs.init({
+     publicKey: "U-tuUa5wbkY9yArF0",
+   });
+  })();
+ </script>
+
+
+<script src="./assets/js/enquire.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <!-- all scripts -->
     <!-- jquery min js -->
