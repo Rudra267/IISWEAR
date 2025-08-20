@@ -29,8 +29,8 @@
                 message: bodyMessage
             };
 
-             const service_Id = "service_dwlubzp";
-            const template_Id = "template_xbo0b1r";
+             const service_Id = "service_yexofj9";
+            const template_Id = "template_lcnowhp";
 
             emailjs.send(service_Id, template_Id, param)
                 .then((res) => {
@@ -69,8 +69,8 @@
                 message: bodyMessage
             };
 
-            const service_Id = "service_dwlubzp";
-            const template_Id = "template_xbo0b1r";
+            const service_Id = "service_yexofj9";
+            const template_Id = "template_lcnowhp";
 
             emailjs.send(service_Id, template_Id, param)
                 .then((res) => {

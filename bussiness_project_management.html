@@ -291,7 +291,7 @@ for leadership roles.
     </div>
     <div class="form-box-program">
       <h2>Get Your Brochure</h2>
-      <form id="brochureForm-program" style="margin-top: 40px;">
+      <form action="#0" id="brochureForm-program" style="margin-top: 40px;">
         <div class="form-grid-program">
           <input type="text" name="firstName" placeholder="First Name" required />
           <input type="text" name="lastName" placeholder="Last Name" required />
@@ -307,11 +307,33 @@ for leadership roles.
           <option value="5+">5+ Years</option>
         </select> -->
         <small style="font-size: 14px; margin-top: 15px;">By clicking the button below, you agree to receive communications via Email/Call/WhatsApp/SMS about this programme and other relevant programmes. <a href="#">Privacy Policy</a></small>
-        <div class="div-cmt"><button type="submit">DOWNLOAD BROCHURE</button></div>
+               
+               <div class="div-cmt"><a href="./brouchers/iiSWEAR_ Business_Analytics_And_Project_Management.pdf" download><button type="submit">DOWNLOAD BROCHURE</button></a></div>
       </form>
     </div>
   </div>
 </section>
+
+<script>
+document.getElementById("brochureForm-program").addEventListener("submit", function(e) {
+  e.preventDefault(); // stop page reload
+
+  // Optional: collect form data
+  const formData = new FormData(this);
+  console.log("User data:", Object.fromEntries(formData));
+
+  // 👉 Here you can send form data to your backend with fetch/ajax if needed
+  // fetch('/save-form', { method: 'POST', body: formData });
+
+  // After successful form submission, trigger download
+  const link = document.createElement("a");
+  link.href = "./brouchers/iiSWEAR_ Business_Analytics_And_Project_Management.pdf";
+  link.download = "iiSWEAR_ Business_Analytics_And_Project_Management.pdf"; 
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+});
+</script>
 
     <!-- course details-area start -->
     <!-- <div class="course-details-wrapper-2">

@@ -25,8 +25,8 @@
                 message: bodyMessage
             };
 
-            const service_Id = "service_dwlubzp";   // replace with your EmailJS service ID
-            const template_Id = "template_cz1p9be"; // replace with your EmailJS template ID
+            const service_Id = "service_yexofj9";   // replace with your EmailJS service ID
+            const template_Id = "template_cdn6xgk"; // replace with your EmailJS template ID
 
             emailjs.send(service_Id, template_Id, param)
                 .then((res) => {

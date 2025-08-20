@@ -35726,3 +35726,9 @@ background: radial-gradient(circle,rgba(255, 255, 255, 0) 62%, rgba(3, 78, 135, 
 
   }
 }
+
+@media (max-width:770px){
+  .single-upcoming-events{
+    height: 450px;
+  }
+}
