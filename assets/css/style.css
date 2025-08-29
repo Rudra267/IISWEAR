@@ -21338,7 +21338,7 @@ nav ul li a {
 }
 
 .single-upcoming-events {
-  height:360px;
+  min-height:400px;
   border-radius: 6px;
   border: 1px solid #EFECFF;
   background: #FFF;
