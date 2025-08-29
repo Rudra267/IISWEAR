@@ -35725,6 +35725,14 @@ background: radial-gradient(circle,rgba(255, 255, 255, 0) 62%, rgba(3, 78, 135, 
     height: 700px; /* Fixed height */
 
   }
+
+  .cmt-frame{
+  height: 180vh !important;
+}
+
+.tar-img{
+  display: none;
+}
 }
 
 @media (max-width:770px){
@@ -35732,3 +35740,6 @@ background: radial-gradient(circle,rgba(255, 255, 255, 0) 62%, rgba(3, 78, 135, 
     height: 450px;
   }
 }
+
+
+
